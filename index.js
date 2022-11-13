@@ -1,7 +1,7 @@
 const start = document.querySelector('#start')
 const game = document.querySelector('#game')
 const $time = document.querySelector('#time')
-const $result = document.querySelector('#result')
+const result = document.querySelector('#result')
 const timeHeader = document.querySelector('#time-header')
 const resultHeader = document.querySelector('#result-header')
 const gameTime = document.querySelector('#game-time')
@@ -86,7 +86,7 @@ const gameSize = game.getBoundingClientRect()
 const maxTop = gameSize.height - boxSize
 const maxLeft = gameSize.width - boxSize
 const randomColorIdx = getRandom(0, colors.length)
-//console.log(gameSize)
+
 
 
 box.style.height = box.style.width = boxSize + 'px'
